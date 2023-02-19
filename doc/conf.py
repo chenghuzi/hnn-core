@@ -239,7 +239,7 @@ sphinx_gallery_conf = {
 }
 
 suppress_warnings = [
-    'nbsphinx',
+    # 'nbsphinx',
 ]
 
 nbsphinx_execute = 'always'
