@@ -58,6 +58,7 @@ jobs:
 
           - run:
               name: Build the documentation
+              no_output_timeout: 30m
               command: |
                   source ~/miniconda/bin/activate testenv
                   cd doc/ && make html
